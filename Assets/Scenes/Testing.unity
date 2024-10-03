@@ -269,7 +269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2063103221}
   - component: {fileID: 2063103220}
-  - component: {fileID: 2063103219}
+  - component: {fileID: 2063103222}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -277,18 +277,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2063103219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2063103218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a86b72e7f0fa96145bbb3143a5a96c71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &2063103220
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -351,12 +339,31 @@ Transform:
   m_GameObject: {fileID: 2063103218}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.12, y: -1.02, z: 0}
+  m_LocalPosition: {x: -5.27, y: 1.89, z: 0}
   m_LocalScale: {x: 2.1140873, y: 1.8762493, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2063103222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063103218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bcf39ed51f79d94f904ca88af19fdda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position:
+    playerPositionArray:
+    - 0
+    - 0
+    - 0
+  playerJsonFileName: Player.json
+  folderPath: C:/Users/B-rad/Desktop/24T3_GPG214.1_Mcarthur_Bradley/Assets/StreamingAssets
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
