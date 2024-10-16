@@ -23,7 +23,7 @@ public class DistanceTracker: MonoBehaviour
 
         previousPosition = currentPosition;
 
-        Debug.Log(distanceTravelled);
+        //Debug.Log(distanceTravelled);
     }
 
     public float GetDistanceTravelled()
