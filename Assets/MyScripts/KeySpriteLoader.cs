@@ -57,6 +57,10 @@ public class KeySpriteLoader : MonoBehaviour
             {
                 Debug.Log("Texture File not found at " + combinedFilePathLocation);
             }
-        } 
+        }
+        else
+        {
+            Debug.Log("No Directory Found");
+        }
     }
 }

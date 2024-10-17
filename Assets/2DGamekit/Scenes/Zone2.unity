@@ -7906,6 +7906,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5609844166671764535, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: folderPath
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -5609844166671764535, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: playerJsonFileName
+      value: PlayerStats.json
+      objectReference: {fileID: 0}
     - target: {fileID: 4212235226361802, guid: 73360cdb4e1e7ed4897690f9d57fd0eb, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -28150,7 +28160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fileName: RetroKey.png
-  folderPath: C:/Users/B-rad/Desktop/24T3_GPG214.1_Mcarthur_Bradley/Assets/StreamingAssets
+  folderPath: C:/Users/lsepi/OneDrive/Desktop/GPG214.1/Assets/StreamingAssets
   keySprite: {fileID: 0}
   spriteRenderer: {fileID: 1706047233}
 --- !u!1001 &1735260187

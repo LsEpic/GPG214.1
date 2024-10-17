@@ -11673,53 +11673,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &200958901
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 200958903}
-  - component: {fileID: 200958902}
-  m_Layer: 0
-  m_Name: TextFile
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &200958902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 200958901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1596bd8c1e849448b5024768d99fd86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  distanceTracker: {fileID: 1141565059}
-  fileName: DistanceTravelled.txt
-  newDistance: 0
---- !u!4 &200958903
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 200958901}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.879721, y: -3.0729766, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &211548590
 GameObject:
   m_ObjectHideFlags: 0
@@ -29401,18 +29354,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 960138f0450083543ad1d17e1352019d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1141565059 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2258841160777952227, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1141565044}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1141565045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cf11b70fb28dd143a708f504e962998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1160148792
@@ -48278,5 +48219,4 @@ SceneRoots:
   - {fileID: 542886368}
   - {fileID: 1197015522}
   - {fileID: 4674189499744961152}
-  - {fileID: 200958903}
   - {fileID: 1879962058}

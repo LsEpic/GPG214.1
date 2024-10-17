@@ -169,8 +169,8 @@ GameObject:
   - component: {fileID: 114460243114916098}
   - component: {fileID: 114680495344679792}
   - component: {fileID: 114621962236214084}
-  - component: {fileID: 2258841160777952227}
   - component: {fileID: -5609844166671764535}
+  - component: {fileID: 4325899851625201983}
   m_Layer: 13
   m_Name: Ellen
   m_TagString: Untagged
@@ -693,18 +693,6 @@ MonoBehaviour:
   dataSettings:
     dataTag: inventory
     persistenceType: 3
---- !u!114 &2258841160777952227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125256590603436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cf11b70fb28dd143a708f504e962998, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &-5609844166671764535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -717,13 +705,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bcf39ed51f79d94f904ca88af19fdda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position:
+  playerStats:
     playerPositionArray:
     - 0
     - 0
     - 0
+    distanceTraveled: 0
+    shotsFired: 0
   playerJsonFileName: Player.json
   folderPath: C:/Users/B-rad/Desktop/24T3_GPG214.1_Mcarthur_Bradley/Assets/StreamingAssets
+--- !u!114 &4325899851625201983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125256590603436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7193ad3a44601f6489693368a52b0880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1181578502863468
 GameObject:
   m_ObjectHideFlags: 0
