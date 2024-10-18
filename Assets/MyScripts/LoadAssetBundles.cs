@@ -6,7 +6,7 @@ using UnityEngine;
 public class LoadAssetBundles : MonoBehaviour
 {
     string folderPath = "AssetBundles";
-    string fileName = "enemies";
+    string fileName = "hazards";
     string combinedPath;
     private AssetBundle enemiesBundle;
 
@@ -15,7 +15,7 @@ public class LoadAssetBundles : MonoBehaviour
     void Start()
     {
         LoadAssetBundle();
-        LoadChomperEnemy();
+        LoadHazard();
     }
 
     // Update is called once per frame
@@ -24,21 +24,21 @@ public class LoadAssetBundles : MonoBehaviour
         
     }
 
-    void LoadChomperEnemy()
+    void LoadHazard()
     {
         if (enemiesBundle == null)
         {
             return;
         }
 
-        GameObject enemyPrefab = enemiesBundle.LoadAsset<GameObject>("Spitter");
+        GameObject enemyPrefab = enemiesBundle.LoadAsset<GameObject>("Acid");
         if(enemyPrefab == null)
         {
             Instantiate(enemyPrefab);
         }
         else
         {
-            Debug.Log("No Enemy Loaded");
+            Debug.Log("No Hazard Loaded");
         }
     }
 

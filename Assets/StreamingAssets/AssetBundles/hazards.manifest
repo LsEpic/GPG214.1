@@ -1,0 +1,73 @@
+ManifestFileVersion: 0
+CRC: 597969209
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2ac9160129c002ac19c82af0eba7d426
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d026745b353f18abd1a1db4ebb35da1f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 2ac9160129c002ac19c82af0eba7d426
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: c1506f7b67235554cb42519c257da979, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9a4a5bef6c1874445a14d10d62db2177, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6abcd50fdc97f3e409820b29f208d704, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 241
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+- Class: 245
+  Script: {instanceID: 0}
+- Class: 253
+  Script: {instanceID: 0}
+- Class: 331
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: Gamekit2D.Damager/DamagableEvent
+- AssemblyName: Assembly-CSharp
+  ClassName: Gamekit2D.Damager/NonDamagableEvent
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+Assets:
+- Assets/2DGamekit/Prefabs/Environment/Acid.prefab
+- Assets/2DGamekit/Prefabs/Environment/Spikes.prefab
+Dependencies: []

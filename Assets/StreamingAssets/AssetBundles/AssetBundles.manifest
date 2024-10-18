@@ -1,7 +1,7 @@
 ManifestFileVersion: 0
-CRC: 424313856
+CRC: 1037818672
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: enemies
+      Name: hazards
       Dependencies: {}
