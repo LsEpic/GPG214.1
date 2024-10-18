@@ -8,14 +8,14 @@ public class LoadAssetBundles : MonoBehaviour
     string folderPath = "AssetBundles";
     string fileName = "hazards";
     string combinedPath;
-    private AssetBundle enemiesBundle;
+    private AssetBundle hazardBundle;
 
 
     // Start is called before the first frame update
     void Start()
     {
         LoadAssetBundle();
-        LoadHazard();
+        LoadSpikeHazard();
     }
 
     // Update is called once per frame
@@ -24,17 +24,17 @@ public class LoadAssetBundles : MonoBehaviour
         
     }
 
-    void LoadHazard()
+    void LoadSpikeHazard()
     {
-        if (enemiesBundle == null)
+        if (hazardBundle == null)
         {
             return;
         }
 
-        GameObject enemyPrefab = enemiesBundle.LoadAsset<GameObject>("Acid");
-        if(enemyPrefab == null)
+        GameObject hazardPrefab = hazardBundle.LoadAsset<GameObject>("Spikes");
+        if(hazardPrefab != null)
         {
-            Instantiate(enemyPrefab);
+            Instantiate(hazardPrefab);
         }
         else
         {
@@ -48,7 +48,7 @@ public class LoadAssetBundles : MonoBehaviour
 
         if (File.Exists(combinedPath))
         {
-            enemiesBundle = AssetBundle.LoadFromFile(combinedPath);
+            hazardBundle = AssetBundle.LoadFromFile(combinedPath);
             Debug.Log("Asset Bundle Loaded");
         }
         else
