@@ -46280,7 +46280,7 @@ GameObject:
   - component: {fileID: 1879962058}
   - component: {fileID: 1879962057}
   m_Layer: 0
-  m_Name: AssetBundlesTest
+  m_Name: LoadAssetBundles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

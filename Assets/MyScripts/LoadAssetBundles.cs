@@ -14,14 +14,17 @@ public class LoadAssetBundles : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        DontDestroyOnLoad(this);
         LoadAssetBundle();
-        LoadSpikeHazard();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyUp(KeyCode.L))
+        {
+            LoadSpikeHazard();
+        }
     }
 
     void LoadSpikeHazard()

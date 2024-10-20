@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class KeySpriteLoader : MonoBehaviour
 {
+    public AsyncLoading AsyncLoading;
     public string fileName = "RetroKey.png";
     public string folderPath = Application.streamingAssetsPath;
     private string combinedFilePathLocation;
